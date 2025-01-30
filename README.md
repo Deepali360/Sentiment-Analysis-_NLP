@@ -1,7 +1,21 @@
-# GitHub Codespaces ♥️ Jupyter Notebooks
+# **Sentiment Analysis in Healthcare**  
 
-Welcome to your shiny new codespace! We've got everything fired up and running for you to explore Python and Jupyter notebooks.
+## **Objective**  
+With the growing availability of patient reviews, Sentiment Analysis is becoming a crucial tool in the healthcare industry. This project introduces an automated Sentiment Analysis technique to extract meaningful insights from patient feedback, ensuring **high accuracy and minimal computational cost**. The goal is to assist healthcare governing bodies in making **data-driven decisions** by analyzing real-time textual data.  
 
-You've got a blank canvas to work on from a git perspective as well. There's a single initial commit with what you're seeing right now - where you go from here is up to you!
+## **Methods**  
+- **Data Collection:** Extracted patient reviews from public websites spanning **5 years**.  
+- **Text Analysis:** Applied **Word Clouds** and **n-grams** to identify trends, patterns, and key themes.  
+- **Preprocessing & Exploration:** Used Python libraries for **data cleaning, distribution analysis, and feature engineering**.  
+- **Handling Imbalance:** Implemented **data augmentation** followed by **under-sampling** to address dataset imbalance.  
+- **Modeling:**  
+  - Trained **two BERT variants**:  
+    - BERT for Sequence Classification  
+    - Custom BERT Model  
+  - **Custom BERT achieved 88% accuracy**, outperforming traditional sentiment analysis methods.  
 
-Everything you do here is contained within this one codespace. There is no repository on GitHub yet. If and when you’re ready you can click "Publish Branch" and we’ll create your repository and push up your project. If you were just exploring then and have no further need for this code then you can simply delete your codespace and it's gone forever.
+## **Results & Impact**  
+- Our method enables **real-time sentiment analysis**, providing healthcare providers with **actionable insights**.  
+- The **Custom BERT model** outperformed traditional approaches, demonstrating **higher accuracy and efficiency**.  
+- This approach can enhance **patient care quality** by helping policymakers understand patient sentiment **at scale**.  
+
